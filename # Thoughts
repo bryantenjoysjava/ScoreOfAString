@@ -1,0 +1,3 @@
+This leetcode problem was straightforward and easy. The problem asks for us to find the score of a string, which is the total sum of the difference between each characters ASCII
+value in the string. In order to do this, I simply add the values of each character's ASCII values to a list and take the difference between each index in the list and add the 
+difference to a sum starting at 0. After the end of the string is reached, we return the sum.
